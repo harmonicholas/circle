@@ -212,7 +212,7 @@ boolean CUSBMIDIGadgetEndpoint::SendEventsHandler (const u8 *pData, unsigned nLe
 
 	if (nRejected)
 	{
-		LOGNOTE ("MIDI IN queue accepting events again after %u rejected sends", nRejected);
+		LOGDBG ("MIDI IN queue accepting events again after %u rejected sends", nRejected);
 	}
 
 	return TRUE;
